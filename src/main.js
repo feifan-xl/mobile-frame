@@ -9,9 +9,9 @@ import '@/assets/css/index.css'
 import 'babel-polyfill'
 import FastClick from 'fastclick'
 import VueClickoutside from 'vue-clickoutside'
+import '@/assets/js/flexible.js'
 
 Vue.config.productionTip = false
-window.baseUrl = 'https://xmgl-test.glodon.com/partner/'
 
 Vue.use(Mint)
 Vue.use(VueClickoutside)
